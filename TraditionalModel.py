@@ -1,3 +1,5 @@
+# AI Use Disclosure: This code was written with the assistance of Github Copilot.  
+# AI was also used for the idea of extracting features to improve the model performance.
 import cv2
 import numpy as np
 import pandas as pd
