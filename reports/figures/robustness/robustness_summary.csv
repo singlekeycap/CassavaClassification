@@ -1,0 +1,7 @@
+,clean_f1,clean_f1,mean_corrupted_f1,mean_corrupted_f1,mean_rel_drop,mean_rel_drop
+,mean,std,mean,std,mean,std
+method,,,,,,
+none,0.7766,0.0067,0.6399,0.0099,0.1759,0.0184
+sampler,0.7699,0.0088,0.6156,0.0161,0.2004,0.0248
+weights,0.7830,0.0036,0.6396,0.0070,0.1831,0.0082
+oversample,0.7774,0.0101,0.6339,0.0120,0.1843,0.0249

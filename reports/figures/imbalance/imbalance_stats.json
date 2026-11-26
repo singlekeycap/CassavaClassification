@@ -1,0 +1,153 @@
+{
+  "full_dataset": {
+    "n_images": 21397,
+    "counts": {
+      "CBB": 1087,
+      "CBSD": 2189,
+      "CGM": 2386,
+      "CMD": 13158,
+      "Healthy": 2577
+    },
+    "percent": {
+      "CBB": 5.08,
+      "CBSD": 10.23,
+      "CGM": 11.15,
+      "CMD": 61.49,
+      "Healthy": 12.04
+    },
+    "majority_class": "CMD",
+    "minority_class": "CBB",
+    "imbalance_ratio_max_min": 12.1,
+    "imbalance_ratio_max_median": 5.51,
+    "normalised_entropy": 0.7351,
+    "majority_baseline_accuracy": 0.6149,
+    "majority_baseline_macro_f1": 0.1523
+  },
+  "per_split": {
+    "Train": {
+      "n_images": 14642,
+      "counts": {
+        "CBB": 732,
+        "CBSD": 1522,
+        "CGM": 1619,
+        "CMD": 9031,
+        "Healthy": 1738
+      },
+      "percent": {
+        "CBB": 5.0,
+        "CBSD": 10.39,
+        "CGM": 11.06,
+        "CMD": 61.68,
+        "Healthy": 11.87
+      },
+      "majority_class": "CMD",
+      "minority_class": "CBB",
+      "imbalance_ratio_max_min": 12.34,
+      "imbalance_ratio_max_median": 5.58,
+      "normalised_entropy": 0.7329,
+      "majority_baseline_accuracy": 0.6168,
+      "majority_baseline_macro_f1": 0.1526
+    },
+    "Validation": {
+      "n_images": 3677,
+      "counts": {
+        "CBB": 206,
+        "CBSD": 361,
+        "CGM": 422,
+        "CMD": 2247,
+        "Healthy": 441
+      },
+      "percent": {
+        "CBB": 5.6,
+        "CBSD": 9.82,
+        "CGM": 11.48,
+        "CMD": 61.11,
+        "Healthy": 11.99
+      },
+      "majority_class": "CMD",
+      "minority_class": "CBB",
+      "imbalance_ratio_max_min": 10.91,
+      "imbalance_ratio_max_median": 5.32,
+      "normalised_entropy": 0.7413,
+      "majority_baseline_accuracy": 0.6111,
+      "majority_baseline_macro_f1": 0.1517
+    },
+    "Test": {
+      "n_images": 3078,
+      "counts": {
+        "CBB": 149,
+        "CBSD": 306,
+        "CGM": 345,
+        "CMD": 1880,
+        "Healthy": 398
+      },
+      "percent": {
+        "CBB": 4.84,
+        "CBSD": 9.94,
+        "CGM": 11.21,
+        "CMD": 61.08,
+        "Healthy": 12.93
+      },
+      "majority_class": "CMD",
+      "minority_class": "CBB",
+      "imbalance_ratio_max_min": 12.62,
+      "imbalance_ratio_max_median": 5.45,
+      "normalised_entropy": 0.7375,
+      "majority_baseline_accuracy": 0.6108,
+      "majority_baseline_macro_f1": 0.1517
+    }
+  },
+  "training_counts_per_strategy": {
+    "Original": [
+      732,
+      1522,
+      1619,
+      9031,
+      1738
+    ],
+    "Sampler (sqrt inv. freq.)": [
+      1630,
+      2350,
+      2424,
+      5726,
+      2512
+    ],
+    "Sampler (inv. freq.)": [
+      2928,
+      2928,
+      2928,
+      2928,
+      2928
+    ],
+    "Oversample (median)": [
+      1619,
+      1619,
+      1619,
+      9031,
+      1738
+    ],
+    "Oversample (max)": [
+      9031,
+      9031,
+      9031,
+      9031,
+      9031
+    ]
+  },
+  "class_weights_train": {
+    "power_1.0": {
+      "CBB": 2.052999973297119,
+      "CBSD": 0.9869999885559082,
+      "CGM": 0.9279999732971191,
+      "CMD": 0.16599999368190765,
+      "Healthy": 0.8650000095367432
+    },
+    "power_0.5": {
+      "CBB": 1.5149999856948853,
+      "CBSD": 1.0509999990463257,
+      "CGM": 1.0190000534057617,
+      "CMD": 0.4309999942779541,
+      "Healthy": 0.9829999804496765
+    }
+  }
+}

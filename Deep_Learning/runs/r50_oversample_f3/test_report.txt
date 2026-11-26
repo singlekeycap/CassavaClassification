@@ -1,0 +1,11 @@
+                                     precision    recall  f1-score   support
+
+     Cassava Bacterial Blight (CBB)     0.5568    0.6913    0.6168       149
+Cassava Brown Streak Disease (CBSD)     0.8527    0.7190    0.7801       306
+         Cassava Green Mottle (CGM)     0.7988    0.7594    0.7786       345
+       Cassava Mosaic Disease (CMD)     0.9487    0.9644    0.9565      1880
+                            Healthy     0.7475    0.7437    0.7456       398
+
+                           accuracy                         0.8752      3078
+                          macro avg     0.7809    0.7755    0.7755      3078
+                       weighted avg     0.8774    0.8752    0.8753      3078

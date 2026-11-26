@@ -1,0 +1,13 @@
+method,metric,value,ci_low,ci_high,diff_vs_baseline,diff_ci_low,diff_ci_high,significant
+none,acc,0.8775,0.8657,0.8891,,,,
+none,balanced_acc,0.7748,0.7532,0.7962,,,,
+none,macro_f1,0.7754,0.7541,0.7955,,,,
+sampler,acc,0.8645,0.8522,0.8768,-0.0130,-0.0216,-0.0042,True
+sampler,balanced_acc,0.7763,0.7539,0.7983,0.0014,-0.0158,0.0190,False
+sampler,macro_f1,0.7638,0.7423,0.7844,-0.0116,-0.0278,0.0048,False
+weights,acc,0.8762,0.8642,0.8880,-0.0013,-0.0094,0.0068,False
+weights,balanced_acc,0.7982,0.7763,0.8190,0.0234,0.0067,0.0399,True
+weights,macro_f1,0.7854,0.7645,0.8050,0.0100,-0.0050,0.0254,False
+oversample,acc,0.8804,0.8686,0.8921,0.0029,-0.0052,0.0111,False
+oversample,balanced_acc,0.7868,0.7644,0.8083,0.0120,-0.0058,0.0300,False
+oversample,macro_f1,0.7803,0.7591,0.8001,0.0048,-0.0111,0.0211,False

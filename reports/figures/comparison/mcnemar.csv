@@ -1,0 +1,4 @@
+method,both_correct,both_wrong,only_baseline_correct,only_method_correct,p_value,p_holm,significant (p_holm < 0.05)
+sampler,2583,299,118,78,0.005209,0.01563,True
+weights,2621,301,80,76,0.8103,1,False
+oversample,2623,290,78,87,0.5335,1,False

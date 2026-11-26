@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Cassava project .gitignore
+# Rule of thumb: commit code, configs, small results and charts; never commit
+# the dataset, anything that contains its images, environments or big binaries.
+# ---------------------------------------------------------------------------
+
+# ---- Dataset and anything derived from its pixels (licence, rule R12) ----
+# Kaggle images and train.csv (13 GB) - download it, never redistribute
+dataset/
+# DINOv2 embeddings + hashes; recreated by src/01-02 (47 MB)
+features/
+# cache of the test images themselves (1.7 GB)
+reports/robustness_eval/test_uint8_384.npy
+
+# Figures that show dataset photos. Un-ignore (delete the line) only after the
+# team has checked the competition licence allows showing images publicly.
+reports/figures/samples_per_class.png
+reports/figures/group_examples.png
+reports/figures/error_analysis/failures_*.png
+reports/figures/error_analysis/fixed_by_weights.png
+reports/figures/error_analysis/gradcam_failures.png
+reports/figures/robustness/corruption_examples.png
+reports/robustness_eval/examples.png
+# NOTE: notebooks/step3c_error_analysis.ipynb and step3_robustness.ipynb embed
+# photos in their outputs. Clear outputs before committing them:
+#   venv/bin/jupyter nbconvert --clear-output --inplace notebooks/step3c_error_analysis.ipynb notebooks/step3_robustness.ipynb
+
+# ---- Model checkpoints (about 120 MB each, 50 runs = 6 GB; GitHub limit is 100 MB per file) ----
+*.pt
+*.pth
+*.ckpt
+# Run folders are otherwise kept: config.json, history.csv, test_metrics.json,
+# test_report.txt, test_probs.npy (small, needed by the analysis notebooks).
+# queue lock folders (run_lc.sh)
+Deep_Learning/runs/.locks/
+
+# ---- Logs (one per run, full of progress-bar output, 48 MB) ----
+logs/
+*.log
+
+# ---- Python environments and caches ----
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- Experiment trackers, if ever added ----
+wandb/
+mlruns/
+
+# ---- Secrets (never commit) ----
+.env
+.env.*
+*.pem
+*.key
+kaggle.json
+
+# ---- Editor / OS files ----
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+*.swp

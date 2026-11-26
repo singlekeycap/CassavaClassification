@@ -1,0 +1,9 @@
+method,from %,to %,macro-F1 gain per doubling (pp),CBB F1 gain per doubling (pp)
+none,5,10,1.874,1.674
+none,10,25,2.241,2.020
+none,25,50,1.951,5.789
+none,50,100,1.300,1.282
+weights,5,10,3.719,3.020
+weights,10,25,1.196,2.284
+weights,25,50,1.845,1.173
+weights,50,100,2.362,4.268

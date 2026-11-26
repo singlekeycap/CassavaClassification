@@ -1,0 +1,8 @@
+,Full,Full,Train,Train,Validation,Validation,Test,Test
+,n,%,n,%,n,%,n,%
+Cassava Bacterial Blight (CBB),1087,5.08,732,5.0,206,5.6,149,4.84
+Cassava Brown Streak Disease (CBSD),2189,10.23,1522,10.39,361,9.82,306,9.94
+Cassava Green Mottle (CGM),2386,11.15,1619,11.06,422,11.48,345,11.21
+Cassava Mosaic Disease (CMD),13158,61.49,9031,61.68,2247,61.11,1880,61.08
+Healthy,2577,12.04,1738,11.87,441,11.99,398,12.93
+Total,21397,100.0,14642,100.0,3677,100.0,3078,100.0

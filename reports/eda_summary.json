@@ -1,0 +1,73 @@
+{
+  "n_train_images": 21397,
+  "n_test_images_provided": 1,
+  "missing_files": 0,
+  "duplicate_ids": 0,
+  "image_sizes": {
+    "800x600": 21397
+  },
+  "image_modes": {
+    "RGB": 21397
+  },
+  "class_counts": {
+    "CBB": 1087,
+    "CBSD": 2189,
+    "CGM": 2386,
+    "CMD": 13158,
+    "Healthy": 2577
+  },
+  "class_pct": {
+    "CBB": 5.08,
+    "CBSD": 10.23,
+    "CGM": 11.15,
+    "CMD": 61.49,
+    "Healthy": 12.04
+  },
+  "imbalance_ratio_max_min": 12.1,
+  "majority_baseline_accuracy": 0.6149,
+  "majority_baseline_macro_f1": 0.1523,
+  "inverse_freq_class_weights": {
+    "CBB": 3.937,
+    "CBSD": 1.955,
+    "CGM": 1.794,
+    "CMD": 0.325,
+    "Healthy": 1.661
+  },
+  "mean_rgb": [
+    109.7,
+    126.7,
+    79.9
+  ],
+  "std_rgb_of_image_means": [
+    21.7,
+    20.4,
+    26.1
+  ],
+  "brightness_by_class": {
+    "CBB": 96.6,
+    "CBSD": 101.6,
+    "CGM": 109.0,
+    "CMD": 106.2,
+    "Healthy": 105.2
+  },
+  "nn_similarity_quantiles": {
+    "0.5": 0.672,
+    "0.9": 0.771,
+    "0.99": 0.842
+  },
+  "grouping": {
+    "n_groups": 20787,
+    "n_multi_image_groups": 230,
+    "images_in_multi_image_groups": 840,
+    "largest_group": 27,
+    "groups_with_conflicting_labels": 96
+  },
+  "split_sizes": {
+    "fold0": 3677,
+    "fold1": 3665,
+    "fold2": 3652,
+    "fold3": 3679,
+    "fold4": 3646,
+    "test": 3078
+  }
+}

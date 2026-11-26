@@ -1,0 +1,29 @@
+# Cassava leaf-disease project - tested with Python 3.10 (works with 3.10-3.12).
+#   python3 -m venv venv && source venv/bin/activate
+#   pip install --upgrade pip && pip install -r requirements.txt
+#
+# torch 2.6.0 from PyPI on Linux includes CUDA 12.4 (needs NVIDIA driver >= 525).
+# If the server's driver is older, install torch/torchvision first from the matching index, e.g.
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu118
+
+# Deep learning (Deep_Learning/)
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+pillow==12.3.0
+matplotlib==3.10.9
+tqdm==4.70.1
+
+# Preprocessing / grouping scripts (src/)
+timm==1.0.30
+scipy==1.15.3
+imagehash==4.3.2
+
+# Analysis notebooks (notebooks/); register the kernel once with
+#   venv/bin/python -m ipykernel install --user --name cassava-venv --display-name "cassava (venv)"
+ipykernel==7.4.0
+jupyter==1.1.1
+nbconvert==7.17.2
+nbformat==5.11.1

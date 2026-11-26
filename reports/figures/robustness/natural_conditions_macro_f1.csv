@@ -1,0 +1,9 @@
+,,mean,mean,mean,mean,std,std,std,std
+,,none,sampler,weights,oversample,none,sampler,weights,oversample
+,bucket,,,,,,,,
+brightness bucket,bright,0.7962,0.7908,0.7961,0.7922,0.0113,0.0129,0.0136,0.0086
+brightness bucket,dark,0.7561,0.7495,0.7720,0.7645,0.0111,0.0076,0.0072,0.0143
+brightness bucket,medium,0.7670,0.7599,0.7689,0.7641,0.0072,0.0156,0.0090,0.0141
+sharpness bucket,blurry,0.7915,0.7832,0.7953,0.7908,0.0103,0.0099,0.0069,0.0074
+sharpness bucket,medium,0.7770,0.7657,0.7884,0.7822,0.0079,0.0158,0.0063,0.0083
+sharpness bucket,sharp,0.7348,0.7328,0.7362,0.7321,0.0101,0.0162,0.0081,0.0311

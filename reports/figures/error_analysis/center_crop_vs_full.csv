@@ -1,0 +1,7 @@
+,macro_f1,macro_f1,balanced_acc,balanced_acc,recall CBB,recall CBB
+input,center crop 384x384 (as trained),full image 512x384,center crop 384x384 (as trained),full image 512x384,center crop 384x384 (as trained),full image 512x384
+method,,,,,,
+none,0.7754,0.7809,0.7748,0.7780,0.6376,0.6309
+sampler,0.7638,0.7598,0.7763,0.7702,0.6577,0.6309
+weights,0.7854,0.7836,0.7982,0.7933,0.7047,0.6644
+oversample,0.7803,0.7837,0.7868,0.7868,0.6644,0.6376

@@ -1,0 +1,7 @@
+metric,method,mean_diff_pp,std_pp,folds_better,p_ttest,p_holm
+mean_corrupted_f1,sampler,-2.434,1.751,0/5,0.03592,0.1078
+mean_corrupted_f1,weights,-0.02554,0.9218,2/5,0.9536,0.9536
+mean_corrupted_f1,oversample,-0.5977,0.7483,1/5,0.1486,0.2973
+mean_rel_drop,sampler,2.447,2.671,0/5,0.1099,0.3296
+mean_rel_drop,weights,0.7224,1.517,1/5,0.3469,0.5161
+mean_rel_drop,oversample,0.842,1.429,2/5,0.2581,0.5161

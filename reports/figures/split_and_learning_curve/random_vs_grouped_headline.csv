@@ -1,0 +1,7 @@
+,,acc,acc,balanced_acc,balanced_acc,macro_f1,macro_f1,runs
+,,mean,std,mean,std,mean,std,
+split,method,,,,,,,
+grouped,none,87.78,0.3,77.37,0.95,77.65,0.67,5
+grouped,weights,87.76,0.15,79.31,0.65,78.3,0.36,5
+random,none,88.5,0.2,78.7,0.69,79.17,0.28,3
+random,weights,87.49,0.26,78.21,0.44,77.9,0.39,3
